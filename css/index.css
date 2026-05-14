@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(105, 124, 158);
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+#About {
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+#Experience {
+    margin-bottom: 40px;
+    padding: 20px;
+
+
+
+}
+
+#Connect {
+    margin-bottom: 40px;
+    padding: 20px;
+
+
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: darkblue;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: aquamarine;
+
+}
+
+#Experience li {
+
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    color: rgb(111, 0, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+#Experience h3 {
+    margin-bottom: 5px;
+
+}
+
+#Experience span {
+    font-weight: bold;
+    align-self: flex-end;
+
+
+}
+
+#Connect ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+
+
+}
+
+#Connect a {
+    color: rgb(111, 0, 255);
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+
+
+}
