@@ -86,3 +86,22 @@ h2 {
 
 
 }
+
+#skills ul {
+
+     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul{
+
+    background-color: antiquewhite;
+    color: rgb(111, 0, 255);
+    font-weight: bold;
+    padding: 10px 15px;
+
+
+}
