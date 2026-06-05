@@ -19,3 +19,21 @@ for (let i = 0; i < skills.length; i++) {
 copyright.innerHTML = "@ Raetoshia Hardy " + thisYear;
 
 footer.appendChild(copyright);
+
+let projectSection = document.getElementById("Projects");
+let projectList = projectSection.querySelector("ul");
+
+
+fetch('https://api.github.com/users/rhard32/repos')
+.then(response => response.json())
+.then(data => {
+    const repositories = data;
+    for(let i =0; i <repositories.length; i++){
+        let project = document.createElement('li');
+        project.innerText = repositories[i].name;
+        projectList.appendChild(project);
+    }
+    console.log(repositories);
+})
+.catch(error => console.log('Error fetching repositories',error));
+
