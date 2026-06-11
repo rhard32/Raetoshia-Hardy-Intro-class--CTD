@@ -105,3 +105,46 @@ h2 {
 
 
 }
+
+#leave-message form{
+    max-width: 500px;
+    margin-top: 20px
+}
+
+#leave-message label {
+    display:block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  
+}
+
+#leave-message input,
+#leave-message textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+#leave-message textarea{
+    min-height: 100px;
+}
+
+#leave-message button{
+    padding: 10px 16px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #leave-message input,
+    #leave-message textarea,
+    #leave-message button {
+        font-size: 16px;
+        padding: 14px;
+    }
+    #leave-message button {
+        width: 100%;
+    }
+    
+}
