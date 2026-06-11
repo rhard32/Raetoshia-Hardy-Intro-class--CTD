@@ -106,6 +106,18 @@ h2 {
 
 }
 
+#Projects ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#Projects li {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
 #leave-message form{
     max-width: 500px;
     margin-top: 20px
