@@ -1,4 +1,4 @@
-const pepopleButton = document.getElementById("peopleButton");
+const peopleButton = document.getElementById("peopleButton");
 const planetButton = document.getElementById("planetButton");
 const results = document.getElementById("results");
 const dataTitle = document.getElementById("dataTitle");
