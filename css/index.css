@@ -1,3 +1,4 @@
+/* Set the overall page colors and font */
 body {
     background-color: rgb(105, 124, 158);
     color: antiquewhite;
@@ -17,8 +18,11 @@ body {
     margin-bottom: 40px;
     padding: 20px;
 
+}
 
-
+#skills {
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
 #Connect {
@@ -66,6 +70,8 @@ h2 {
 
 
 }
+
+
 
 #Connect ul {
     display: flex;
@@ -117,12 +123,15 @@ h2 {
 #Projects li {
     border: 1px solid black;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px;}
+
+    /* Control the width of the message form */
 #leave-message form{
     max-width: 500px;
     margin-top: 20px
-}}
+}
 
+/* Style form labels */
 #leave-message label {
     display:block;
     margin-top: 12px;
@@ -130,6 +139,7 @@ h2 {
   
 }
 
+/* Style form inputs and text area */
 #leave-message input,
 #leave-message textarea {
     width: 100%;
@@ -138,15 +148,18 @@ h2 {
     box-sizing: border-box;
 }
 
+/* Set minimum height for the message box */
 #leave-message textarea{
     min-height: 100px;
 }
 
+/* Style the submit button */
 #leave-message button{
     padding: 10px 16px;
     margin-top: 8px;
     cursor: pointer;
 }
+/* Adjust form layout for smaller screens */
 
 @media screen and (max-width: 600px) {
     #leave-message input,
